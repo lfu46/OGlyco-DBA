@@ -3,7 +3,7 @@ library(tidyverse)
 
 # import NGlyco HCD searching result
 NGlyco_HCD_result <- read_tsv(
-  '/Volumes/cos-lab-rwu60/Longping/OGlyco_DBA_12152025/Standard_Extraction/NGlyco_HCD_Search_1/E_LF_OGlyco_DBA_1_12152025/psm.tsv',
+  '',
   col_names = TRUE,
   name_repair = 'universal'
 ) |> 
